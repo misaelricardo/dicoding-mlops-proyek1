@@ -1,0 +1,36 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "quality"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "MeanAbsoluteError"
+          },
+          {
+            "className": "MeanSquaredError"
+          },
+          {
+            "className": "RootMeanSquaredError"
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.42.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "pipelines\\red-wine-pipeline\\Trainer\\model\\113\\Format-Serving"
+  }
+}

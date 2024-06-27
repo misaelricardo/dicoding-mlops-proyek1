@@ -1,0 +1,5 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore directories and files related to the red wine pipeline
+pipelines/red-wine-pipeline/Transform/updated_analyzer_cache/
